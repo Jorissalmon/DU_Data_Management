@@ -8,3 +8,8 @@ chmod +x setup.sh
 ecriture en notebook :
 python -m jupytext --to notebook data_management_project.py
 
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/Jorissalmon/Data_Management_Sorbonne-Paris-1.git
+git push -u origin master
