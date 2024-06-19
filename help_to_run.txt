@@ -1,0 +1,10 @@
+cd "C:\Users\ingemedia\Desktop\ETUDES\DU Sorbonne\Cours Data-Management\Projet"
+cd myenv\Scripts\activate (pour en creer un : python -m venv myenv)
+pip install -r requirements.txt
+python main.py
+
+permissions :
+chmod +x setup.sh
+ecriture en notebook :
+python -m jupytext --to notebook data_management_project.py
+
